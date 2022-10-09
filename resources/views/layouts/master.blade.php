@@ -10,7 +10,7 @@
     </head>
 
   <body>
-    <main role="main" class="bg-cinereous">
+    <main role="main" class="bg-bistre">
         <div class="container-fluid min-vh-100 bg-{{ Route::is('products') ? 'products' : Route::is('testimonials') ? 'testimonials' : Route::is('index') ? 'about' : 'index' }} bg-dark pl-0">
             <nav role="navigation" class="navbar navbar-expand-lg fixed-top navbar-custom shadow-lg">
                 <div class="container">
@@ -38,7 +38,7 @@
     </main>
 
     {{-- Footer --}}
-    <footer class="pb-2 pt-3 bg-bistre">
+    <footer class="pb-2 pt-3 bg-cinereous">
         <div class="container text-center">
             <h6>&copy; {{ date("Y") }} Fedora Yoshe Juandy</h6>
         </div>

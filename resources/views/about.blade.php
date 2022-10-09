@@ -34,7 +34,7 @@
 {{-- contact information --}}
 <div class="container-fluid min-vh-100 d-flex align-items-center py-3" id="contact">
     <div class="container">
-        <div class="card text-white bg-dark text-center shadow-sm">
+        <div class="card bg-cinereous text-center shadow-sm">
             <div class="card-header">
                 <h1 class="display-5 mb-0">Contact Me</h1>
             </div>
