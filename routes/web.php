@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\IndexController;
+use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\TestimonialsController;
+use App\View\Components\Test;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +18,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get(
+    '/about',
+    AboutController::class
+)->name('about');
+
+Route::get(
+    '/',
+    IndexController::class
+)->name('home');
+
+Route::get(
+    '/products',
+    ProductsController::class
+)->name('products');
+
+Route::get(
+    '/testimonials',
+    TestimonialsController::class
+)->name('testimonials');
