@@ -127,14 +127,4 @@ color: #A17C5E !important;
 .btn-outline-primary:focus {
     border-color: #A17C5E !important;
     box-shadow: 0 0 0 0.2rem #CDB5A0 !important;
-}
-
-.form-select:focus {
-    border-color: #A17C5E !important;
-    box-shadow: 0 0 0 0.2rem #CDB5A0 !important;
-}
-
-.form-control:focus {
-    border-color: #A17C5E !important;
-    box-shadow: 0 0 0 0.2rem #CDB5A0 !important;
 } */
