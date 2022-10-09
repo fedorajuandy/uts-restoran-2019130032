@@ -22,11 +22,11 @@
     </div>
 </div>
 
-{{-- history --}}
+{{-- founder and brief history --}}
 <div class="container-fluid min-vh-100 d-flex align-items-center bg-image">
     <div class="container">
         <div class="row">
-            Like a route if possible, if not, let's go back to rambling
+            Frick complication, hello... idk
         </div>
     </div>
 </div>

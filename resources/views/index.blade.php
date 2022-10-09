@@ -22,11 +22,4 @@
         I NEED KAEYA
     </div>
 </div>
-
-{{-- founder --}}
-<div class="container min-vh-100 py-5">
-    <div class="row">
-        I WANT MY PRIVATE LAND- BLAME THE DREAM
-    </div>
-</div>
 @endsection
