@@ -8,7 +8,7 @@
 <div class="container-fluid min-vh-100 d-flex align-items-center bg-image">
     <div class="container">
         <div class="row">
-
+            TAKE ME HOME DILUC- I WANNA GO TO ANOTHER DIMENSION- OR REALM. FUCK EARTH-
         </div>
     </div>
 </div>

@@ -17,7 +17,7 @@ use App\Http\Controllers\TestimonialsController;
 |
 */
 
-/* Route::get(
+Route::get(
     '/about',
     AboutController::class
 )->name('about');
@@ -35,4 +35,4 @@ Route::get(
 Route::get(
     '/testimonials',
     TestimonialsController::class
-)->name('testimonials'); */
+)->name('testimonials');

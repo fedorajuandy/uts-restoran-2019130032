@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Products')
+@section('title', 'Menu')
 
 @section('content')
 <h1 class="cover-heading">Hello!</h1>
