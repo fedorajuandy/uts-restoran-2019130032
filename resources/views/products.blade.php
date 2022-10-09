@@ -2,9 +2,12 @@
 
 @section('title', 'Menu')
 
+@section('cover')
+
+@endsection
+
 @section('content')
-<h1 class="cover-heading">Hello!</h1>
-{{-- cover --}}
+{{-- top picks --}}
 <div class="container-fluid min-vh-100 d-flex align-items-center py-3">
     <div id="carouselGallery" class="carousel carousel-dark slide" data-ride="carousel">
         <div class="carousel-indicators">
@@ -45,8 +48,6 @@
     </div>
 </div>
 
-{{-- top pick --}}
-
-{{-- idk, will think of it --}}
+{{-- menus --}}
 
 @endsection

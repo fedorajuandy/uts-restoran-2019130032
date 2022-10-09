@@ -5,7 +5,7 @@
 @section('cover')
 {{-- cover --}}
 <div class="d-flex align-items-center">
-
+    <img src="{{ asset('/img/brand-logo.png') }}">
 </div>
 @endsection
 
