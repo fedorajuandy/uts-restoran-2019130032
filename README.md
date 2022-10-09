@@ -11,14 +11,17 @@ DISCLAIMER: every name and content from this website are fictive. Whatever you f
 - PBW notes and past projects
 - PBWL notes and past projects
 - <a href="https://getbootstrap.com/docs/4.1">Bootstrap 4 documentation</a>
-- 
+- <a href="https://stackoverflow.com/questions/43381596/bootstrap-change-navbar-color">Navbar css customisation</a>
 
 ## Ideas references
 
 - <a href="https://dribbble.com/tags/restaurant">UI design</a>
 - <a href="https://www.dewaweb.com/blog/website-company-profile-terbaik/">Company profile website contents</a>
--  <a href="https://abhijitrawool.com/restaurant-website-color-palettes/">Color palette</a>
+- <a href="https://getbento.com/blog/best-restaurant-websites-design/">Restaurant websites</a>
+- <a href="https://abhijitrawool.com/restaurant-website-color-palettes/">Color palette</a>
+- 
 
 ## Images references
 
+- Brand logos are made using <a href="https://express.adobe.com/express-apps/logo-maker">Adobe Express</a> and edited using <a href="https://www.figma.com/">Figma</a>
 - 

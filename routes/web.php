@@ -25,7 +25,7 @@ Route::get(
 Route::get(
     '/',
     IndexController::class
-)->name('home');
+)->name('index');
 
 Route::get(
     '/products',

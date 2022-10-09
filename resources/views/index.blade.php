@@ -2,20 +2,27 @@
 
 @section('title', 'Home')
 
-@section('content')
-<h1 class="cover-heading">Hello!</h1>
+@section('cover')
 {{-- cover --}}
-<div class="container-fluid min-vh-100 d-flex align-items-center bg-image">
-    <div class="container">
-        <div class="row">
+<div class="d-flex align-items-center">
 
-        </div>
+</div>
+@endsection
+
+@section('content')
+<div class="container">
+    <div class="row">
+        I NEED DILUC
     </div>
 </div>
 
-{{-- visi misi --}}
+{{-- brief introduction --}}
+<div class="container min-vh-100 py-5">
+
+</div>
 
 {{-- founder --}}
+<div class="container min-vh-100 py-5">
 
-{{-- public relation --}}
+</div>
 @endsection

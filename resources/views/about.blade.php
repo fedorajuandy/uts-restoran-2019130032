@@ -13,9 +13,13 @@
     </div>
 </div>
 
-{{-- branches address --}}
+{{-- vision, mision --}}
 
 {{-- history --}}
+
+{{-- branches address --}}
+
+
 
 {{-- contact information --}}
 <div class="container-fluid min-vh-100 d-flex align-items-center py-3" id="contact">
