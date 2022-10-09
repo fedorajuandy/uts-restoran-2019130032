@@ -2,9 +2,7 @@
 
 @section('title', 'About')
 
-@section('content')
-<h1 class="cover-heading">Hello!</h1>
-{{-- cover --}}
+@section('cover')
 <div class="container-fluid min-vh-100 d-flex align-items-center bg-image">
     <div class="container">
         <div class="row">
@@ -12,14 +10,26 @@
         </div>
     </div>
 </div>
+@endsection
 
+@section('content')
 {{-- vision, mision --}}
+<div class="container-fluid min-vh-100 d-flex align-items-center bg-image">
+    <div class="container">
+        <div class="row">
+            MY MISSION IS TO FIND A WAY TO ANOTHER DIMENSION-
+        </div>
+    </div>
+</div>
 
 {{-- history --}}
-
-{{-- branches address --}}
-
-
+<div class="container-fluid min-vh-100 d-flex align-items-center bg-image">
+    <div class="container">
+        <div class="row">
+            Like a route if possible, if not, let's go back to rambling
+        </div>
+    </div>
+</div>
 
 {{-- contact information --}}
 <div class="container-fluid min-vh-100 d-flex align-items-center py-3" id="contact">

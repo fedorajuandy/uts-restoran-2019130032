@@ -3,7 +3,9 @@
 @section('title', 'Menu')
 
 @section('cover')
-
+<div class="d-flex align-items-center justify-content-center">
+    DILUC
+</div>
 @endsection
 
 @section('content')

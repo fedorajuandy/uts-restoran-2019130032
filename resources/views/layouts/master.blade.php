@@ -39,7 +39,7 @@
 
     {{-- Footer --}}
     <footer class="pb-2 pt-3 bg-bistre">
-        <div class="container text-light text-center">
+        <div class="container text-center">
             <h6>&copy; {{ date("Y") }} Fedora Yoshe Juandy</h6>
         </div>
     </footer>
