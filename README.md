@@ -17,7 +17,7 @@ DISCLAIMER: every name and content from this website are fictive. Whatever you f
 
 - <a href="https://dribbble.com/tags/restaurant">UI design</a>
 - <a href="https://www.dewaweb.com/blog/website-company-profile-terbaik/">Company profile website contents</a>
-= 
+-  <a href="https://abhijitrawool.com/restaurant-website-color-palettes/">Color palette</a>
 
 ## Images references
 
