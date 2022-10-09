@@ -5,7 +5,6 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\TestimonialsController;
-use App\View\Components\Test;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +17,7 @@ use App\View\Components\Test;
 |
 */
 
-Route::get(
+/* Route::get(
     '/about',
     AboutController::class
 )->name('about');
@@ -36,4 +35,4 @@ Route::get(
 Route::get(
     '/testimonials',
     TestimonialsController::class
-)->name('testimonials');
+)->name('testimonials'); */
