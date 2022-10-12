@@ -1,11 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Menu')
+@section('title', 'Menus')
 
 @section('cover')
-<div class="d-flex align-items-center justify-content-center">
-    DILUC
-</div>
+DILUC
 @endsection
 
 @section('content')

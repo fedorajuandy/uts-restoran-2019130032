@@ -47,7 +47,7 @@
     position: relative;
 }
 .bg-about:before {
-    background-image: url("https://source.unsplash.com/poI7DelFiVA/1600x900");
+    background-image: url("https://source.unsplash.com/_RAnrRJv-7I/1600x900");
     content: ' ';
     position: absolute;
     width: 100%;
@@ -60,7 +60,7 @@
     position: relative;
 }
 .bg-products:before {
-    background-image: url("https://source.unsplash.com/poI7DelFiVA/1600x900");
+    background-image: url("https://source.unsplash.com/dsT5LGzEuzE/1600x900");
     content: ' ';
     position: absolute;
     width: 100%;
@@ -73,7 +73,7 @@
     position: relative;
 }
 .bg-testimonials:before {
-    background-image: url("https://source.unsplash.com/poI7DelFiVA/1600x900");
+    background-image: url("https://source.unsplash.com/Orz90t6o0e4/1600x900");
     content: ' ';
     position: absolute;
     width: 100%;
@@ -87,9 +87,6 @@
 }
 
 /* Bootstrap modifications */
-/* .navbar-custom {
-    background-color: #04030f;
-} */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: #FFFBFF;
@@ -103,29 +100,7 @@
     color: #F1DABF !important;
 }
 
-/* KAEYA */
-/* .btn-primary {
-    background-color: #A17C5E !important;
-    border-color: #A17C5E !important;
+.navbar-custom .navbar-toggler {
+    color: #F1DABF !important;
+    border-color: #F1DABF !important;
 }
-.btn-primary:hover {
-    background-color: #6E4E34 !important;
-    border-color: #CDB5A0 !important;
-}
-.btn-primary:focus {
-    border-color: #A17C5E !important;
-    box-shadow: 0 0 0 0.2rem #CDB5A0 !important;
-}
-
-.btn-outline-primary {
-    border-color: #A17C5E !important;
-    color: #A17C5E !important;
-}
-.btn-outline-primary:hover {
-background-color: #CDB5A0 !important;
-color: #A17C5E !important;
-}
-.btn-outline-primary:focus {
-    border-color: #A17C5E !important;
-    box-shadow: 0 0 0 0.2rem #CDB5A0 !important;
-} */

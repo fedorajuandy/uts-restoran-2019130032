@@ -3,9 +3,7 @@
 @section('title', 'Testimonials')
 
 @section('cover')
-<div class="d-flex align-items-center justify-content-center">
-    KAEYA
-</div>
+KAEYA
 @endsection
 
 @section('content')
