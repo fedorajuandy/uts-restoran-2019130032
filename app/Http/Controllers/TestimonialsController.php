@@ -14,6 +14,24 @@ class TestimonialsController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return view('/testimonials');
+        $cards = [
+            [
+                "url" => "https://source.unsplash.com/G-jo31ESuRE/100px180",
+                "title" => "Everybody E.",
+                "text" => "Restaurant owner"
+            ],
+            [
+                "url" => "https://source.unsplash.com/v3OlBE6-fhU/100px180",
+                "title" => "Somebody E.",
+                "text" => "Executive chef"
+            ],
+            [
+                "url" => "https://source.unsplash.com/0Zx1bDv5BNY/100px180",
+                "title" => "Anybody E.",
+                "text" => "General manager"
+            ]
+        ];
+
+        return view('/testimonials', compact('cards'));
     }
 }
