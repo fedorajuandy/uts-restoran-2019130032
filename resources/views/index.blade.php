@@ -30,7 +30,7 @@
         </div>
         <div class="col-md-7 col-sm-12">
             <h1 class="display-4 text-center border-top border-bottom py-3 mb-5">Food of Life</h1>
-            <p class="lead">We serve random food. I don't have any idea what kind of food is here...</p>
+            <p class="lead">We serve both traditional and modern food to your liking. As the time passes and life goes by, more will be added...</p>
             <div class="btn-group mt-2 mb-1">
                 <a href="{{ route('products') }}" type="button" class="btn btn-outline-light">View menu</a>
             </div>
@@ -41,7 +41,30 @@
 {{-- chefs --}}
 <div class="container min-vh-100 py-5">
     <div class="row">
-        I NEED-
+        <div class="col-12">
+            <h1 class="display-4 text-center border-top border-bottom py-3 mb-5">Our Reliable Staffs</h1>
+        </div>
+        <div class="col-12">
+            <div class="card-deck">
+                @forelse ($cards as $key => $card)
+                    <div class="card bg-dutchwhite">
+                        <img src="{{ $card['url'] }}" class="card-img-top" alt="{{ $card['text'] }}'s' photo">
+                        <div class="card-body">
+                            <h5 class="card-title color-bistre">{{ $card['title'] }}</h5>
+                            <p class="card-text color-bistre">{{ $card['text'] }}</p>
+                        </div>
+                    </div>
+                @empty
+                    <div class="card bg-dutchwhite">
+                        <img src="https://source.unsplash.com/dLij9K4ObYY/100px180" class="card-img-top" alt="Nobody's photo">
+                        <div class="card-body">
+                            <h5 class="card-title color-bistre">Nobody E.</h5>
+                            <p class="card-text color-bistre">An unknown entity that opperates in the background</p>
+                        </div>
+                    </div>
+                @endforelse
+            </div>
+        </div>
     </div>
 </div>
 @endsection
