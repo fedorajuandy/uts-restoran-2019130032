@@ -16,19 +16,19 @@ class ProductsController extends Controller
     {
         $carousels = [
             [
-                "url" => "https://source.unsplash.com/G-jo31ESuRE/100px180",
-                "title" => "Everybody E.",
-                "text" => "Restaurant owner"
+                "url" => "https://source.unsplash.com/1X4PUDh_jXg/800x400",
+                "title" => "Most popular",
+                "name" => "Goat noodles"
             ],
             [
-                "url" => "https://source.unsplash.com/v3OlBE6-fhU/100px180",
-                "title" => "Somebody E.",
-                "text" => "Executive chef"
+                "url" => "https://source.unsplash.com/oT7_v-I0hHg/800x400",
+                "title" => "Most bought",
+                "name" => "Paella"
             ],
             [
-                "url" => "https://source.unsplash.com/0Zx1bDv5BNY/100px180",
-                "title" => "Anybody E.",
-                "text" => "General manager"
+                "url" => "https://source.unsplash.com/pe9dvM1rQkM/800x400",
+                "title" => "Favorite",
+                "name" => "Steak with truffle oil fries"
             ]
         ];
 

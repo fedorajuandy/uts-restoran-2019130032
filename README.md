@@ -6,6 +6,8 @@
 
 DISCLAIMER: every name and content from this website are fictive. Whatever you found from an instance, a human's name, an item, to everything else are just merely (perhaps not so happy) unintended coincidences. Do not ask the idea where those stuff came from because my sleep-derived brain of constant insomnia and paranoia made this whatever possible. No, coffee does not work and I would prefer not to waste more time chasing something impossible at the current moment.
 
+The menus are not... specified to a restaurant; practically just whatever free images available.
+
 ## Codes references
 
 - PBW notes and past projects
@@ -31,6 +33,11 @@ DISCLAIMER: every name and content from this website are fictive. Whatever you f
 - Executive chef photo by <a href="https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Louis Hansel</a> on <a href="https://unsplash.com/s/photos/chef?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - General mangaer photo by <a href="https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina @ wocintechchat.com</a> on <a href="https://unsplash.com/s/photos/manager?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Products page cover's photo by <a href="https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Louis Hansel</a> on <a href="https://unsplash.com/s/photos/menu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Products page empty top pick's photo by <a href="https://unsplash.com/@thoughtcatalog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thought Catalog</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Noodle photo by <a href="https://unsplash.com/@shaggmon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">sandi firmansyah</a> on <a href="https://unsplash.com/s/photos/noddle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Steak with truffle oil fries photo by <a href="https://unsplash.com/@covertnine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Toomey</a> on <a href="https://unsplash.com/s/photos/steak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Paella photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/fried-rice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- 
 - Testimonials page cover's photo by <a href="https://unsplash.com/@pablomerchanm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pablo Merchán Montes</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - About page cover's photo by <a href="https://unsplash.com/@mdc_photography2000?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Milan De Clercq</a> on <a href="https://unsplash.com/s/photos/restaurant-outside?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - 
