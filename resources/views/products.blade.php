@@ -3,7 +3,7 @@
 @section('title', 'Menus')
 
 @section('cover')
-<h1 class="display-1 color-dutchwhite">Menus</h1>
+<h1 class="display-4 color-dutchwhite">Menus</h1>
 @endsection
 
 @section('content')

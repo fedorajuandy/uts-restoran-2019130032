@@ -3,18 +3,32 @@
 @section('title', 'Testimonials')
 
 @section('cover')
-KAEYA
+<h1 class="display-4 color-dutchwhite">Testimonials</h1>
 @endsection
 
 @section('content')
 {{-- testimonies --}}
-
-
-{{-- certifications and awards --}}
 <div class="container min-vh-100 py-5">
-    <div class="row">
-        PRETEND EVERY FOOD IS THE MOST EXQUISITE STUFF A HUMAN HAS EVER TASTED, MADE FROM PURE TOP GRADE BLA"""
+    <div class="card-columns">
+        @forelse ($cards as $key => $card)
+            <div class="card p-3 bg-{{ $card['color'] }}">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p class="color-{{ $card['color'] == 'richblack' ? 'white' : 'bistre' }}">{{ $card['words'] }}</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">{{ $card['name'] }}</small>
+                    </footer>
+                </blockquote>
+            </div>
+        @empty
+            <div class="card p-3 bg-dutchwhite">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p class="color-bistre">No one has made their oppinion known yet :(</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">Nobody</small>
+                    </footer>
+                </blockquote>
+            </div>
+        @endforelse
     </div>
 </div>
-
 @endsection

@@ -16,7 +16,7 @@ I WANNA GO HOME
     </div>
 </div>
 
-{{-- founder and brief history --}}
+{{-- brief history --}}
 <div class="container-fluid min-vh-100 d-flex align-items-center bg-image">
     <div class="container">
         <div class="row">

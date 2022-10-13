@@ -17,17 +17,17 @@ class IndexController extends Controller
         $cards = [
             [
                 "url" => "https://source.unsplash.com/G-jo31ESuRE/100px180",
-                "title" => "Everybody E.",
+                "title" => "Edward R.",
                 "text" => "Restaurant owner"
             ],
             [
                 "url" => "https://source.unsplash.com/v3OlBE6-fhU/100px180",
-                "title" => "Somebody E.",
+                "title" => "Steph E.",
                 "text" => "Executive chef"
             ],
             [
                 "url" => "https://source.unsplash.com/0Zx1bDv5BNY/100px180",
-                "title" => "Anybody E.",
+                "title" => "Anna G.",
                 "text" => "General manager"
             ]
         ];
