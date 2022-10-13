@@ -9,7 +9,7 @@
 @section('content')
 {{-- top picks --}}
 <div class="container min-vh-100 py-5">
-    <h1 class="display-4 text-center mb-5">Top Picks of the Month</h1>
+    <h1 class="display-4 text-center mb-5 color-white">Top Picks of the Month</h1>
     <div id="carouselTopPicks" class="carousel carousel-dark slide" data-ride="carousel">
         <div class="carousel-indicators">
             @forelse ($carousels as $key => $carousel)
@@ -49,7 +49,7 @@
 
 {{-- menus --}}
 <div class="container min-vh-100 py-5">
-    <h1 class="text-center display-4 mb-5">Menu list</h1>
+    <h1 class="text-center display-4 mb-5 color-white">Menu list</h1>
     <ul class="nav justify-content-center nav-tabs mb-5" id="menuTab" role="tablist">
         <li class="nav-item">
             <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true">Breakfast</a>
