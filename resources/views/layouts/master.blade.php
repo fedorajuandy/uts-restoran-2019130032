@@ -35,7 +35,7 @@
             </nav>
 
             <div class="content bg-{{ Route::is('index') ? 'index' : (Route::is('products') ? 'products' : (Route::is('testimonials') ? 'testimonials' : 'about')) }}">
-                <div class="d-flex min-vh-100 justify-content-{{ Route::is('index') ? 'center align-content-center' : (Route::is('products') ? 'end  align-items-center' : (Route::is('testimonials') ? 'start  align-items-center' : 'end  align-items-center')) }}">
+                <div class="container d-flex min-vh-100 justify-content-{{ Route::is('index') ? 'center align-content-center' : (Route::is('products') ? 'end  align-items-center' : (Route::is('testimonials') ? 'start  align-items-center' : 'end  align-items-center')) }}">
                     @yield('cover')
                 </div>
             </div>

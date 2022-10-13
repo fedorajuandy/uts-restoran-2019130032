@@ -3,51 +3,51 @@
 @section('title', 'Menus')
 
 @section('cover')
-DILUC
+<h1 class="display-1 color-dutchwhite">Menus</h1>
 @endsection
 
 @section('content')
 {{-- top picks --}}
-<div class="container-fluid min-vh-100 d-flex align-items-center py-3">
-    <div id="carouselGallery" class="carousel carousel-dark slide" data-ride="carousel">
+<div class="container min-vh-100 d-flex align-items-center py-5">
+    <h1 class="display-3">Top Picks of the Month</h1>
+    <div id="carouselTopPicks" class="carousel carousel-dark slide" data-ride="carousel">
         <div class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            @forelse ($carousels as $key => $carousel)
+                <li data-target="#carouselIndicators" data-slide-to="{{ $key }}" class="{{ $key==0? 'active':'' }}"></li>
+            @empty
+                <li data-target="#carouselIndicators" data-slide-to="0" class="active">
+            @endforelse
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active" data-interval="10000">
-                <img src="/img/latest_works.png" class="d-block w-100 img-fluid" alt="latest_work1">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Place is nice</h5>
-                </div>
-            </div>
-            <div class="carousel-item" data-interval="2000">
-                <img src="/img/latest_works.png" class="d-block w-100 img-fluid" alt="latest_work2">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Food is great</h5>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/img/latest_works.png" class="d-block w-100 img-fluid" alt="latest_work3">
-                <div class="carousel-caption d-none d-md-block">
-                    <div class="text-bg-dark">
-                        <h5>No, they are not free</h5>
+            @forelse ($carousels as $key => $carousel)
+                <div class="carousel-item {{ $key==0? 'active':'' }}" data-interval="5000">
+                    <img src="{{ $carousel['url'] }}" class="d-block w-100 img-fluid" alt="top pick image">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>{{ $carousel['name'] }}</h5>
                     </div>
                 </div>
-            </div>
+            @empty
+                <div class="carousel-item active">
+                    <img src="https://source.unsplash.com/fnztlIb52gU" alt="empty plate image" class="d-block w-100 img-fluid">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Nothing's here</h5>
+                    </div>
+                </div>
+            @endforelse
         </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselGallery" data-slide="prev">
+        <a class="carousel-control-prev" role="button" href="#carouselTopPicks" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselGallery" data-slide="next">
+        </a>
+        <a class="carousel-control-next" role="button" href="#carouselTopPicks" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-        </button>
+        </a>
     </div>
 </div>
 
 {{-- menus --}}
+<div class="container min-vh-100 d-flex align-items-center py-5">
 
+</div>
 @endsection
