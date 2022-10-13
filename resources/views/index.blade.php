@@ -44,22 +44,26 @@
         <div class="col-12">
             <h1 class="display-4 text-center border-top border-bottom py-3 mb-5">Our Reliable Staffs</h1>
         </div>
-        <div class="col-12">
-            <div class="card-deck">
+        <div class="album">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 flex justify-content-center">
                 @forelse ($cards as $key => $card)
-                    <div class="card bg-dutchwhite">
-                        <img src="{{ $card['url'] }}" class="card-img-top" alt="{{ $card['text'] }}'s' photo">
-                        <div class="card-body">
-                            <h5 class="card-title color-bistre">{{ $card['title'] }}</h5>
-                            <p class="card-text color-bistre">{{ $card['text'] }}</p>
+                    <div class="col mb-3">
+                        <div class="card bg-dutchwhite shadow-sm">
+                            <img src="{{ $card['url'] }}" class="card-img-top" alt="{{ $card['text'] }}'s' photo">
+                            <div class="card-body">
+                                <h5 class="card-title color-bistre">{{ $card['title'] }}</h5>
+                                <p class="card-text color-bistre">{{ $card['text'] }}</p>
+                            </div>
                         </div>
                     </div>
                 @empty
-                    <div class="card bg-dutchwhite">
-                        <img src="https://source.unsplash.com/dLij9K4ObYY/100px180" class="card-img-top" alt="Nobody's photo">
-                        <div class="card-body">
-                            <h5 class="card-title color-bistre">Nobody E.</h5>
-                            <p class="card-text color-bistre">An unknown entity that opperates in the background</p>
+                    <div class="col mb-3">
+                        <div class="card bg-dutchwhite">
+                            <img src="https://source.unsplash.com/dLij9K4ObYY/100px180" class="card-img-top" alt="Nobody's photo">
+                            <div class="card-body">
+                                <h5 class="card-title color-bistre">Nobody E.</h5>
+                                <p class="card-text color-bistre">An unknown entity that opperates in the background</p>
+                            </div>
                         </div>
                     </div>
                 @endforelse
