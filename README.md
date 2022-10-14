@@ -4,22 +4,22 @@
 
 ## ATOZ Restaurant
 
-DISCLAIMER: every name and content from this website are fictive. Whatever you found from an instance, a human's name, an item, to everything else are just merely (perhaps not so happy) unintended coincidences. Do not ask the idea where those stuff came from because my sleep-derived brain of constant insomnia and paranoia made this whatever possible. No, coffee does not work and I would prefer not to waste more time chasing something impossible at the current moment.
+<strong>DISCLAIMER!</strong>
 
-The menus are not... specified to a restaurant; practically just whatever free images available.
+Every name and content from this website are fictive. Everything you find coincidentally same are unintended. The menus are not specified to a real restaurant; practically are just whatever free images available.
 
 ## Codes references
 
-- PBW notes and past projects
-- PBWL notes and past projects
+- PBW class notes and past projects
+- PBWL class notes and past projects
 - <a href="https://getbootstrap.com/docs/4.1">Bootstrap 4 documentation</a>
 - <a href="https://stackoverflow.com/questions/43381596/bootstrap-change-navbar-color">Navbar css customisation</a>
 
 ## Ideas references
 
-- <a href="https://dribbble.com/tags/restaurant">UI design</a>
+- <a href="https://dribbble.com/tags/restaurant">UI designs</a>
 - <a href="https://www.dewaweb.com/blog/website-company-profile-terbaik/">Company profile website contents</a>
-- <a href="https://getbento.com/blog/best-restaurant-websites-design/">Restaurant websites</a>
+- <a href="https://getbento.com/blog/best-restaurant-websites-design/">Restaurant website contents</a>
 - <a href="https://abhijitrawool.com/restaurant-website-color-palettes/">Color palette</a>
 
 ## Images references
