@@ -4,18 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>ATOZ | @yield('title', 'Comfy Restaurant')</title>
+        <title>ATOZ | @yield('title', 'Your Home Restaurant')</title>
         <link rel="shortcut icon" href="{{ asset('/img/logo.svg') }}">
         <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
     </head>
 
-  <body>
-    <main role="main" class="bg-bistre">
-        <div class="container-fluid min-vh-100 bg-dark pl-0">
+    <body>
+        <div class="container-fluid min-vh-100 bg-richblack pl-0">
             <nav role="navigation" class="navbar navbar-expand-lg fixed-top navbar-custom shadow-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="{{ route('index') }}">
                         <img src="{{ asset('/img/brand-navbar.svg') }}" width="auto" height="32" alt="ATOZ">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,17 +40,18 @@
             </div>
         </div>
 
-        @yield('content')
-    </main>
+        <main role="main" class="bg-bistre color-dutchwhite">
+            @yield('content')
+        </main>
 
-    {{-- Footer --}}
-    <footer class="pb-2 pt-3 bg-cinereous">
-        <div class="container text-center">
-            <h6 class="color-bistre">&copy; {{ date("Y") }} Fedora Yoshe Juandy</h6>
-        </div>
-    </footer>
+        {{-- Footer --}}
+        <footer class="pb-2 pt-3 bg-cinereous">
+            <div class="container text-center">
+                <h6 class="color-white">&copy; {{ date("Y") }} Fedora Yoshe Juandy</h6>
+            </div>
+        </footer>
 
-    <script src="{{ asset('/js/app.js') }}"></script>
-    <script src="{{ asset('/js/script.js') }}"></script>
-  </body>
+        <script src="{{ asset('/js/app.js') }}"></script>
+        <script src="{{ asset('/js/script.js') }}"></script>
+    </body>
 </html>
