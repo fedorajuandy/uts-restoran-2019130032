@@ -22,7 +22,7 @@
         @empty
             <div class="card p-3 bg-dutchwhite">
                 <blockquote class="blockquote mb-0 card-body">
-                    <p class="color-bistre">No one has made their oppinion known yet :(</p>
+                    <p class="color-bistre">No one has made their opinion known yet :(</p>
                     <footer class="blockquote-footer">
                         <small class="text-muted">Nobody</small>
                     </footer>
