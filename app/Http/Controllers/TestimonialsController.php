@@ -22,7 +22,7 @@ class TestimonialsController extends Controller
             ],
             [
                 "name" => "Ben",
-                "words" => "I might have more than I already have, but I just cannot stop having more.",
+                "words" => "I might have more than I already should, but I just cannot stop having more.",
                 "color" => "cinerous"
             ],
             [
@@ -117,7 +117,7 @@ class TestimonialsController extends Controller
             ],
             [
                 "name" => "Umar",
-                "words" => "Hello from X! I always come here on Saturday to eat breakfast while doing some side projects. I really love their baguette!",
+                "words" => "Hello from X! I always come here on Saturday to eat breakfast. I really love their baguette!",
                 "color" => "richblack"
             ],
             [
@@ -132,7 +132,7 @@ class TestimonialsController extends Controller
             ],
             [
                 "name" => "Ximena",
-                "words" => "The moonlight shone through the window as the classical music played in the background, stomach content with some warm noodles and tea. At that moment, I felt back in time with my family.",
+                "words" => "The moonlight shone through the windows as the classical music played in the background, stomach contented with some warm noodles and tea. At that moment, I felt I was back in time with my family.",
                 "color" => "richblack"
             ],
             [
