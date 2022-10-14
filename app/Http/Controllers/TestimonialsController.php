@@ -23,7 +23,7 @@ class TestimonialsController extends Controller
             [
                 "name" => "Ben",
                 "words" => "I might have more than I already should, but I just cannot stop having more.",
-                "color" => "cinerous"
+                "color" => "cinereous"
             ],
             [
                 "name" => "Catherine",
@@ -38,7 +38,7 @@ class TestimonialsController extends Controller
             [
                 "name" => "Evan",
                 "words" => "The food is great and the place is well kept.",
-                "color" => "cinerous"
+                "color" => "cinereous"
             ],
             [
                 "name" => "Felix",
@@ -53,7 +53,7 @@ class TestimonialsController extends Controller
             [
                 "name" => "Hellen",
                 "words" => "I love the steak here.",
-                "color" => "cinerous"
+                "color" => "cinereous"
             ],
             [
                 "name" => "Ivan",
@@ -68,7 +68,7 @@ class TestimonialsController extends Controller
             [
                 "name" => "Kiki",
                 "words" => "The ingredients used in the food are good and healty for the body. I haven't had any problems with my health since eating here.",
-                "color" => "cinerous"
+                "color" => "cinereous"
             ],
             [
                 "name" => "Layla",
@@ -83,7 +83,7 @@ class TestimonialsController extends Controller
             [
                 "name" => "Nino",
                 "words" => "The sound of music acommpanied by the rainfall can never be erased from my mind. I was having a bad day but the warm and tasty spaghetti lifted my mood even in the dreary weather felt better.",
-                "color" => "cinerous"
+                "color" => "cinereous"
             ],
             [
                 "name" => "Olivia",
@@ -98,7 +98,7 @@ class TestimonialsController extends Controller
             [
                 "name" => "Quinn",
                 "words" => "The desserts here are very delicious.",
-                "color" => "cinerous"
+                "color" => "cinereous"
             ],
             [
                 "name" => "Russel",
@@ -113,7 +113,7 @@ class TestimonialsController extends Controller
             [
                 "name" => "Tania",
                 "words" => "My casual restaurant choice in the city; from the kindness shown, the place, to the food itself are delightful to experience in life.",
-                "color" => "cinerous"
+                "color" => "cinereous"
             ],
             [
                 "name" => "Umar",
@@ -128,7 +128,7 @@ class TestimonialsController extends Controller
             [
                 "name" => "Willow",
                 "words" => "Some nights, I crave for some of ATOZ's sandwiches...",
-                "color" => "cinerous"
+                "color" => "cinereous"
             ],
             [
                 "name" => "Ximena",
@@ -143,7 +143,7 @@ class TestimonialsController extends Controller
             [
                 "name" => "Zero",
                 "words" => "My stomach is full of curry and is very happy.",
-                "color" => "cinerous"
+                "color" => "cinereous"
             ]
         ];
 

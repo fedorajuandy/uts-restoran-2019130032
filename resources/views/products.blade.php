@@ -9,7 +9,7 @@
 @section('content')
 {{-- top picks --}}
 <div class="container min-vh-100 py-5">
-    <h1 class="display-4 text-center mb-5 color-white py-3 border-top border-bottom">Top Picks of the Month</h1>
+    <h1 class="display-5 text-center mb-5 color-white py-3 border-top border-bottom">Top Picks of the Month</h1>
     <div id="carouselTopPicks" class="carousel carousel-dark slide" data-ride="carousel">
         <div class="carousel-indicators">
             @forelse ($carousels as $key => $carousel)
@@ -49,7 +49,7 @@
 
 {{-- menus --}}
 <div class="container min-vh-100 py-5">
-    <h1 class="text-center display-4 mb-5 color-white">Menu list</h1>
+    <h1 class="text-center display-5 mb-5 color-white">Menu list</h1>
     <ul class="nav justify-content-center nav-tabs mb-5" id="menuTab" role="tablist">
         <li class="nav-item">
             <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true">Breakfast</a>
@@ -84,7 +84,7 @@
                     @empty
                         <div class="col mb-3">
                             <div class="card shadow-sm bg-dutchwhite">
-                                <img src="https://source.unsplash.com/fnztlIb52gU" class="card-cover" alt="empty plage image">
+                                <img src="https://source.unsplash.com/fnztlIb52gU" class="card-cover" alt="empty plate image">
                                 <div class="card-body color-bistre">
                                     <h5 class="card-title">Nothing</h5>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -111,7 +111,7 @@
                     @empty
                         <div class="col mb-3">
                             <div class="card shadow-sm bg-dutchwhite">
-                                <img src="https://source.unsplash.com/fnztlIb52gU" class="card-cover" alt="empty plage image">
+                                <img src="https://source.unsplash.com/fnztlIb52gU" class="card-cover" alt="empty plate image">
                                 <div class="card-body color-bistre">
                                     <h5 class="card-title">Nothing</h5>
                                     <h4 class="card-text">Rp0.00</h4>
@@ -136,7 +136,7 @@
                     @empty
                         <div class="col mb-3">
                             <div class="card shadow-sm bg-dutchwhite">
-                                <img src="https://source.unsplash.com/fnztlIb52gU" class="card-cover" alt="empty plage image">
+                                <img src="https://source.unsplash.com/fnztlIb52gU" class="card-cover" alt="empty plate image">
                                 <div class="card-body color-bistre">
                                     <h5 class="card-title">Nothing</h5>
                                     <h4 class="card-text">Rp0.00</h4>
@@ -161,7 +161,7 @@
                     @empty
                         <div class="col mb-3">
                             <div class="card shadow-sm bg-dutchwhite">
-                                <img src="https://source.unsplash.com/fnztlIb52gU" class="card-cover" alt="empty plage image">
+                                <img src="https://source.unsplash.com/fnztlIb52gU" class="card-cover" alt="empty plate image">
                                 <div class="card-body color-bistre">
                                     <h5 class="card-title">Nothing</h5>
                                     <h4 class="card-text">Rp0.00</h4>

@@ -13,9 +13,9 @@
         @forelse ($cards as $key => $card)
             <div class="card p-3 bg-{{ $card['color'] }}">
                 <blockquote class="blockquote mb-0 card-body">
-                    <p class="color-{{ $card['color'] == 'richblack' ? 'white' : 'bistre' }}">{{ $card['words'] }}</p>
+                    <p class="color-{{ $card['color'] == 'richblack' ? 'white' : ($card['color'] == 'cinereous' ? 'dutchwhite' : 'bistre') }}">{{ $card['words'] }}</p>
                     <footer class="blockquote-footer">
-                        <small class="text-muted">{{ $card['name'] }}</small>
+                        <small class="color-{{ $card['color'] == 'richblack' ? 'white' : ($card['color'] == 'cinereous' ? 'dutchwhite' : 'bistre') }}">{{ $card['name'] }}</small>
                     </footer>
                 </blockquote>
             </div>
