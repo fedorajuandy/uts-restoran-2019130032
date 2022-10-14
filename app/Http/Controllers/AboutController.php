@@ -25,7 +25,7 @@ class AboutController extends Controller
                 "title" => "Missions",
                 "li1" => "We want to make a confortable restaurant.",
                 "li2" => "Our mission is to serve healthy and delicious food for everyone.",
-                "li3" => "We provide top services in professional and good manner."
+                "li3" => "We provide top services in professional and reliable manner."
             ],
         ];
 
