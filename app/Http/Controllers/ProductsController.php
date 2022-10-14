@@ -21,9 +21,9 @@ class ProductsController extends Controller
                 "name" => "Goat noodles"
             ],
             [
-                "url" => "https://source.unsplash.com/oT7_v-I0hHg/800x400",
+                "url" => "https://source.unsplash.com/mvTvOFa-hQ4/800x400",
                 "title" => "Most bought",
-                "name" => "Paella"
+                "name" => "Sandwich"
             ],
             [
                 "url" => "https://source.unsplash.com/pe9dvM1rQkM/800x400",
