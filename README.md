@@ -6,7 +6,7 @@
 
 <strong>DISCLAIMER!</strong>
 
-Every name and content from this website are fictive. Everything you find coincidentally same are unintended. The menus are not specified to a real restaurant; practically are just whatever free images available.
+Every names and contents from this website are fictive. Everything you find coincidentally same are unintended. Both the menus and people are not specified to a real restaurant or people and every images are practically just free images available.
 
 ## Codes references
 
@@ -56,3 +56,5 @@ Every name and content from this website are fictive. Everything you find coinci
 - Coke photo by <a href="https://unsplash.com/@giisilveira?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Giovanna Gomes</a> on <a href="https://unsplash.com/s/photos/coke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Testimonials page cover's photo by <a href="https://unsplash.com/@pablomerchanm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pablo Merchán Montes</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - About page cover's and history section's photo by <a href="https://unsplash.com/@mdc_photography2000?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Milan De Clercq</a> on <a href="https://unsplash.com/s/photos/restaurant-outside?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Nobody's silhouette photo by <a href="https://unsplash.com/@fortyozsteak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joe Shields</a> on <a href="https://unsplash.com/s/photos/silhouette?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- 

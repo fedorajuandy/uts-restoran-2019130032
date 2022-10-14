@@ -22,7 +22,7 @@ class IndexController extends Controller
             ],
             [
                 "url" => "https://source.unsplash.com/v3OlBE6-fhU/100px180",
-                "title" => "Steph E.",
+                "title" => "Stephen E.",
                 "text" => "Executive chef"
             ],
             [
