@@ -17,15 +17,15 @@ class AboutController extends Controller
         $goals = [
             [
                 "title" => "Visions",
-                "li1" => "Makes a homey place",
-                "li2" => "Serves heavenly food",
-                "li3" => "Spreads kindness"
+                "li1" => "We intend to make a place where people can eat in ease and peaceful atmosphere where everyone can feel like they are at home.",
+                "li2" => "We will bring more healty lifestyle by providing food made with great ingredients.",
+                "li3" => "We want to spread kindness and happiness by our services."
             ],
             [
                 "title" => "Missions",
-                "li1" => "Gets money",
-                "li2" => "Gets life",
-                "li3" => "Gets happiness"
+                "li1" => "We want to make a confortable restaurant.",
+                "li2" => "Our mission is to serve healthy and delicious food for everyone.",
+                "li3" => "We provide top services in professional and good manner."
             ],
         ];
 
