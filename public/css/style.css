@@ -125,3 +125,13 @@
     background-color: #F1DABF;
     border-color: #F1DABF #F1DABF #F1DABF;
 }
+
+.form-select:focus {
+    border-color: #362417 !important;
+    box-shadow: 0 0 0 0.2rem #92817A !important;
+}
+
+.form-control:focus {
+    border-color: #362417 !important;
+    box-shadow: 0 0 0 0.2rem #92817A !important;
+}

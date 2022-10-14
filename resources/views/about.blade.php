@@ -13,7 +13,7 @@
         <div class="row">
             @forelse ($goals as $key => $goal)
                 <div class="col-md-6 col-sm-12">
-                    <div class="card bg-cinereous color-bistre shadow-sm">
+                    <div class="card bg-dutchwhite color-bistre shadow-sm">
                         <div class="card-header text-center">
                             <h1 class="display-5 mb-0">{{ $goal['title'] }}</h1>
                         </div>
@@ -73,30 +73,55 @@
 {{-- contact information --}}
 <div class="container-fluid min-vh-100 d-flex align-items-center py-3" id="contact">
     <div class="container">
-        <div class="card bg-cinereous text-center shadow-sm">
-            <div class="card-header">
+        <div class="card bg-dutchwhite shadow-sm">
+            <div class="card-header text-center">
                 <h1 class="display-5 mb-0">Contact Us</h1>
             </div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-md-6 col-sm-12">
                         @forelse ($cardcontents as $key => $cardcontent)
-                            <h5 class="card-title">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi {{ $cardcontent['path'] }} pr-1" viewBox="0 0 16 16">
-                                    <path d="{{ $cardcontent['path'] }}"/>
-                                </svg>
-                                {{ $cardcontent['title'] }}
-                            </h5>
-                            <p class="card-text mb-5">{{ $cardcontent['text'] }}</p>
+                            <div class="col-12">
+                                <h5 class="card-title">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi {{ $cardcontent['path'] }} pr-1" viewBox="0 0 16 16">
+                                        <path d="{{ $cardcontent['path'] }}"/>
+                                    </svg>
+                                    {{ $cardcontent['title'] }}
+                                </h5>
+                                <p class="card-text mb-5">{{ $cardcontent['text'] }}</p>
+                            </div>
                         @empty
-                            <h5 class="card-title">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi smiley pr-1" viewBox="0 0 16 16">
-                                    <path d="smiley"/>
-                                </svg>
-                                Ooops...
-                            </h5>
-                            <p class="card-text mb-3">Something went wrong...</p>
+                            <div class="col-12">
+                                <h5 class="card-title">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi smiley pr-1" viewBox="0 0 16 16">
+                                        <path d="smiley"/>
+                                    </svg>
+                                    Ooops...
+                                </h5>
+                                <p class="card-text mb-3">Something went wrong...</p>
+                            </div>
                         @endforelse
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <form class="needs-validation" novalidate="">
+                            <div class="col-12">
+                                <label for="email" class="form-label ps-0">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                                <div class="invalid-feedback">
+                                    Please enter a valid email.
+                                </div>
+                            </div>
+                            <div class="col-12 pt-3">
+                                <label for="message" class="form-label ps-0">Message</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="What do you want to talk about?" required></textarea>
+                                <div class="invalid-feedback">
+                                    Please enter a message, we cannot read mind :(
+                                </div>
+                            </div>
+                            <div class="col-12 pt-3">
+                                <button type="submit" class="btn btn-outline-dark ">Send</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
