@@ -21,7 +21,6 @@ The menus are not... specified to a restaurant; practically just whatever free i
 - <a href="https://www.dewaweb.com/blog/website-company-profile-terbaik/">Company profile website contents</a>
 - <a href="https://getbento.com/blog/best-restaurant-websites-design/">Restaurant websites</a>
 - <a href="https://abhijitrawool.com/restaurant-website-color-palettes/">Color palette</a>
-- 
 
 ## Images references
 
@@ -56,5 +55,4 @@ The menus are not... specified to a restaurant; practically just whatever free i
 - Hot tea photo by <a href="https://unsplash.com/@teacora?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">TeaCora Rooibos</a> on <a href="https://unsplash.com/s/photos/tea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Coke photo by <a href="https://unsplash.com/@giisilveira?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Giovanna Gomes</a> on <a href="https://unsplash.com/s/photos/coke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Testimonials page cover's photo by <a href="https://unsplash.com/@pablomerchanm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pablo Merchán Montes</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- About page cover's photo by <a href="https://unsplash.com/@mdc_photography2000?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Milan De Clercq</a> on <a href="https://unsplash.com/s/photos/restaurant-outside?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+- About page cover's and history section's photo by <a href="https://unsplash.com/@mdc_photography2000?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Milan De Clercq</a> on <a href="https://unsplash.com/s/photos/restaurant-outside?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
