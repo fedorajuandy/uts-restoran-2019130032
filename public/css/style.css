@@ -1,4 +1,4 @@
-/* reliable color palette, the white and black are default */
+/* reliable restaurant color palette */
 .color-bistre {
     color: #362417;
 }
@@ -23,16 +23,22 @@
 .color-white {
     color: #FFFBFF;
 }
+.bg-white {
+    background-color: #FFFBFF;
+}
 
+.color-richblack {
+    color: #04030f;
+}
 .bg-richblack {
     background-color: #04030f;
 }
 
 /* others */
 .card-cover {
-  object-fit: cover;
-  width: 100%;
-  height: 240px;
+    object-fit: cover;
+    width: 100%;
+    height: 240px;
 }
 
 .bg-index {

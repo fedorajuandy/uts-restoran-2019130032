@@ -20,7 +20,7 @@ Every name and content from this website are fictive. Everything you find coinci
 - <a href="https://dribbble.com/tags/restaurant">UI designs</a>
 - <a href="https://www.dewaweb.com/blog/website-company-profile-terbaik/">Company profile website contents</a>
 - <a href="https://getbento.com/blog/best-restaurant-websites-design/">Restaurant website contents</a>
-- <a href="https://abhijitrawool.com/restaurant-website-color-palettes/">Color palette</a>
+- <a href="https://abhijitrawool.com/restaurant-website-color-palettes/">Restaurant color palette</a>
 
 ## Images references
 
